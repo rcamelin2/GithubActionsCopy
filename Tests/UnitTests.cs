@@ -113,7 +113,7 @@ namespace GithubActionsLab
         [Test]
         public void Power_Valid()
         {
-            Assert.AreEqual(8, Program.Power("2", "4"));  //this one I modified expected results. should be 16, not 8
+            Assert.AreEqual(16, Program.Power("2", "4"));  //this one I modified expected results. should be 16, not 8
             Assert.AreEqual(1, Program.Power("2", "0")); 
             Assert.AreEqual(81, Program.Power("3", "4"));
         }
