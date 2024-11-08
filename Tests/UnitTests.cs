@@ -41,7 +41,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Subract_Invalid()
+        public void Subtract_Invalid()
         {
             Assert.Throws<FormatException>(() => Program.Subtract("1", "a"));
             Assert.Throws<FormatException>(() => Program.Subtract("a", "1"));
