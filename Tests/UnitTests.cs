@@ -45,7 +45,7 @@ namespace GithubActionsLab
         {
             Assert.Throws<FormatException>(() => Program.Subtract("1", "a"));
             Assert.Throws<FormatException>(() => Program.Subtract("a", "1"));
-            Assert.Throws<FormatException>(() => Program.Subtact("a", "a"));
+            Assert.Throws<FormatException>(() => Program.Subtract("a", "a"));
         }
 
         [Test]
